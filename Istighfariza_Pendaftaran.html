@@ -1,0 +1,126 @@
+<html>
+<head>
+    <title>Registrasi</title>
+    <style>
+        form
+        {
+            background-color: rgba(62, 84, 104, 0.897);
+            color: rgb(159, 232, 235);
+            font-family: verdana;
+            font-size: 25px;
+            text-align: center;
+            width: 30%;
+            margin: 70px 400px 50px 450px;
+            padding: 20px;
+        }
+        body
+        {
+            background-image: url('bg.jpg');
+        }
+        h2
+        {
+            background-color: rgba(241, 200, 236, 0.897);
+            font-family: 'Courier New';
+            font-size: 25px;
+            text-align: center;
+            color:rgb(100, 30, 25);
+            width: 14%;
+            margin:auto;
+        }
+    </style>
+</head>
+
+    <body>
+        <form action="Istighfariza_Detail_infoPendaftaran.php" method="GET">
+            <fieldset>
+                <legend>Formulir Pendaftaran</legend>
+                <table border="0" style="center; color:#ffffff">
+
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <td>:</td>
+                    <td><input type="text" name="tempat_lahir"></td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="Date" name="tgl_lahir"></td>
+                </tr>
+
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio"name="sex"/>Laki-Laki<br>
+                    <input type="radio" name="sex"/>Perempuan</td>
+                </tr>
+
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea cols="22" rows="3" name="alamat"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Riwayat Penyakit</td>
+                    <td>:</td>
+                    <td><input type="checkbox"name="disease"/>Jantung<br>
+                    <input type="checkbox" name="disease"/>Asma<br>
+                    <input type="checkbox"name="disease"/>Mata minus<br>
+                    <input type="checkbox"name="disease"/>Diabetes<br>
+                    <input type="checkbox"name="disease"/>Darah tinggi<br></td>
+                </tr>
+
+                <tr>
+                    <td>E-mail</td>
+                    <td>:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td>No Hp</td>
+                    <td>:</td>
+                    <td><input type="text" name="no_telp"></td>
+                </tr>
+
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td><select name="agama">
+                    <option>--Option--</option>
+                    <option>Islam</option>
+                    <option>Katolik</option>
+                    <option>Kristen</option>
+                    <option>Budda</option>
+                    <option>Hindu</option>
+                    <option>Konghucu</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" name="submit" value="Submit"/>
+                    <input type="reset" name="reset" value="Clear"/></td>
+                </tr>
+
+                </table>
+            </fieldset>
+        </form>
+
+        <h2><b>
+            CONTACT US
+        </b></h2>
+
+        <p align="center"><font size="3" face="Times" color='d8b7c9'><b>
+            <img src="email.png" style="width: 65px;height: 46px;border-radius: 100%;" /><br>
+            istighfariza.119140059@student.itera.ac.id
+        </b></p>
+    </body>
+</html>  
