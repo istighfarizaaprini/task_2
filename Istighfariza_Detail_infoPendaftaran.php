@@ -3,7 +3,7 @@
     <title>Detail Informasi Pendaftaran</title>
 </head>
 <body>
-    <table border="0" style="center"; color:"black">
+    <table border="3">
 
     <tr>
         <td>Nama</td>
